@@ -9,5 +9,5 @@ lazy val root = project
     scalaVersion := scala3Version,
     javacOptions ++= Seq("-source", "17"),
 
-    libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.2" % Test
+    libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test
   )
